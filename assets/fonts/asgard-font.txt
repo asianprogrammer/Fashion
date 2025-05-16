@@ -1,0 +1,33 @@
+END-USER LICENSE AGREEMENT FOR THE INCLUDED ZETAFONTS FONTS
+This End-User License Agreement ("EULA") is a legal agreement between you (as an individual)
+and Zetafonts fonts foundry for the digital typeface software - hereafter "fonts" included in this
+package:
+Asgard Family
+created by zetafonts
+The fonts in this package are released under a creative commons - attribution - non commercial (CC BY-NC)
+License. This license lets you freely use and alter them for your design work as long as the new work is
+non-commercial and ZetaFonts is credited.
+01] You may install and use an unlimited number of copies of the fonts.
+02] You can make archival copies of the fonts for your own purposes.
+03] You may modify the fonts for your own purposes, but the copyright remains with the author, and you are not
+allowed to distribuite renamed, edited or derivative works, either for profit or not.
+04] You must include the credit line below:
+(Font: Asgard Family by Zetafonts -http://www.zetafonts.com/collection/6603)
+To acquire a FULL LICENSE for commercial use (allowing file release to a prepress bureau and embedding in other
+software files, such as Portable Document Format (PDF) or Flash files), visit the url:
+http://www.zetafonts.com/collection/6603
+Zetafonts expressly disclaims any warranty for the fonts. The fonts and any related documentation is provided as
+is; without warranty of any kind, either express or implied, including, without limitation, the implied warranties or
+merchantability, fitness for a particular purpose, or noninfringement. The entire risk arising out of use or
+performance of the fonts remains with you. Copies of the fonts may not be distributed or shared in any way (for
+profit or free of charge) either on a standalone basis or included as part of your own product.
+In no event shall Zetafonts or its suppliers be liable for any damages whatsoever (including, without limitation,
+damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss)
+arising out of the use of or inability to use this product, even if Zetafonts has been advised of the possibility of
+such damages. Because some states/jurisdictions do not allow the exclusion or limitation of liability for
+consequential or incidental damages, the above limitation may not apply to you.
+The fonts included are protected by copyright laws and international copyright treaties, as well as other
+intellectual property laws and treaties.
+For more info and commercial licence notice visit: http://www.zetafonts.com/collection/6603
+or write to: info@zetafonts.com
+Should you have any questions concerning this EULA, please contact Zetafonts via its website at http:/www.zetafonts.com, or write directly to Zetafonts, info@zetafonts.com
