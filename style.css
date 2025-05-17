@@ -19,7 +19,7 @@ body {
 
 
 
-/* Reusable Flexbox CSS Classes (Cross-Browser) */
+/* Reusable Classes (Cross-Browser) */
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
