@@ -6,6 +6,11 @@
     --delay: 5s;
 }
 
+@font-face {
+    font-family: Aexir;
+    src: url(./assets/fonts/Aexir-XG3q9.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +18,20 @@
 }
 
 body {
-    margin: 1em 2em;
     padding: 0;
+    margin: 1em 2em;
 }
 
 .header {
-    font-family: sans-serif;
+    font-family: Aexir;
+    font-size: 2em;
 }
 
+.menu {
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+}
 
 /* Reusable Classes (Cross-Browser) */
 .flex {
