@@ -20,11 +20,13 @@
 body {
     padding: 0;
     margin: 1em 2em;
+    background: var(--back);
 }
 
 .header {
-    font-family: Aexir;
     font-size: 2em;
+    color: var(--text);
+    font-family: Aexir;
 }
 
 .menu {
