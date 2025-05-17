@@ -13,6 +13,45 @@
 }
 
 body {
-    margin: 2em;
+    margin: 1em 2em;
     padding: 0;
+}
+
+
+
+/* Reusable Flexbox CSS Classes (Cross-Browser) */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.FX-center {
+  justify-content: center;
+}
+
+.FY-center {
+  align-items: center;
+}
+
+.F-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.F-down {
+  flex-direction: column;
+}
+
+.F-up {
+  flex-direction: row;
+}
+
+.Fw {
+  flex-wrap: wrap;
+}
+
+.F-wn {
+  flex-wrap: nowrap;
 }
