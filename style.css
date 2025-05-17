@@ -87,6 +87,22 @@ nav.right .icon {
     margin-right: 2em;
 }
 
+main {
+    top: 0;
+    height: 90%;
+    font-size: 18em;
+    width: fit-content;
+    gap: 0 !important;
+    line-height: 100%;
+    color: var(--text);
+    font-family: Aexir;
+    position: absolute;
+}
+
+main div {
+    height: fit-content;
+}
+
 /* Reusable Classes (Cross-Browser) */
 .flex {
   display: -webkit-box;
