@@ -17,6 +17,9 @@ body {
     padding: 0;
 }
 
+.header {
+    font-family: sans-serif;
+}
 
 
 /* Reusable Classes (Cross-Browser) */
