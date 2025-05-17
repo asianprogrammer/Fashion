@@ -11,6 +11,11 @@
     src: url(./assets/fonts/Aexir-XG3q9.otf);
 }
 
+@font-face {
+    font-family: Asgard;
+    src: url(./assets/fonts/AsgardTrial-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +50,27 @@ nav.right {
     left: auto;
     right: 2em;
     color: var(--text);
+    font-family: Asgard;
+    text-transform: uppercase;
+}
+
+nav.right > span,
+nav.right div:not(.icon) {
+    height: 40px;
+    margin: 0 2em;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+nav.right > span:nth-last-child(1) {
+    margin-right: 0 !important;
+}
+
+nav.right > span:nth-child(1) {
+    margin-left: 0 !important;
 }
 
 .menu {
