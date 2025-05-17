@@ -1,6 +1,7 @@
 :root {
     --text: #FFFFFF;
     --back: #151515;
+    --gray: #F0F0F0;
     --shadow: #010101;
     --ws: #1A1A1A;
     --delay: 5s;
@@ -49,7 +50,7 @@ nav.right {
     top: 1em;
     left: auto;
     right: 2em;
-    color: var(--text);
+    color: var(--gray);
     font-family: Asgard;
     text-transform: uppercase;
 }
@@ -59,6 +60,8 @@ nav.right div:not(.icon) {
     height: 40px;
     margin: 0 2em;
     display: flex;
+    font-size: 1.4em;
+    cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -73,10 +76,15 @@ nav.right > span:nth-child(1) {
     margin-left: 0 !important;
 }
 
+nav.right .icon {
+    filter: invert(1);
+    margin-left: 0.5em;
+}
+
 .menu {
     width: 40px;
     height: 40px;
-    margin-right: 1em;
+    margin-right: 2em;
 }
 
 /* Reusable Classes (Cross-Browser) */
