@@ -187,8 +187,8 @@ article .long-arrow {
     left: 50%;
     bottom: 2em;
     width: 260px;
-    font-size: 1.4em;
-    line-height: 1em;
+    font-size: 1.1em;
+    line-height: 0.9em;
     padding: 0.7em 2em;
     color: var(--back);
     position: absolute;
@@ -196,7 +196,7 @@ article .long-arrow {
     font-weight: bolder;
     font-family: Asgard;
     text-decoration: none;
-    background: var(--gray);
+    background: var(--text);
     transform: translateX(-50%);
 }
 
