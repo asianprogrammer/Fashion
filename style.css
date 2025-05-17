@@ -90,7 +90,7 @@ nav.right .icon {
 main {
     top: 0;
     height: 90%;
-    font-size: 19em;
+    font-size: 18.9em;
     width: fit-content;
     gap: 0 !important;
     line-height: 100%;
@@ -109,7 +109,7 @@ main div:nth-child(2) {
 
 .character {
     bottom: 0;
-    left: 55%;
+    left: 50%;
     height: 90vh;
     overflow: hidden;
     width: fit-content;
@@ -185,7 +185,7 @@ article .long-arrow {
 
 .button {
     left: 50%;
-    bottom: 2em;
+    bottom: 1em;
     width: 260px;
     font-size: 1.1em;
     line-height: 0.9em;
@@ -214,6 +214,100 @@ article .long-arrow {
     object-fit: contain;
 }
 
+.navigate-video {
+    right: 2em;
+    bottom: 1em;
+    width: 20%;
+    position: absolute;
+}
+
+.navigate-video p {
+    color: #a5a4a4;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: Asgard;
+}
+
+.navigate {
+    width: 100%;
+    margin: 2em 0;
+    padding: 0.5em 2em;
+    border-radius: 4px;
+    color: var(--text);
+    font-family: Asgard;
+    background: #242424;
+}
+
+.navigate .icon {
+    filter: invert(1);
+}
+
+.video-content {
+    width: 100%;
+    height: 67vh;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+}
+
+.video-content .video {
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    position: relative;
+}
+
+.video-content .video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-content .play {
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.video-content .play img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.video-content .action {
+    right: 1em;
+    bottom: 1em;
+    width: 50px;
+    height: 80px;
+    border-radius: 4px;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    background: hsla(0, 0%, 0%, 0.582);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.video-content .action .icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.video-content .action .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.video-content .action .icon.center img {
+    height: 50%;
+}
+
 /* Reusable Classes (Cross-Browser) */
 .flex {
   display: -webkit-box;
@@ -228,6 +322,10 @@ article .long-arrow {
 
 .FY-center {
   align-items: center;
+}
+
+.F-space {
+    justify-content: space-between;
 }
 
 .F-center {
