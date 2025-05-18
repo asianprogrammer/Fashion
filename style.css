@@ -4,7 +4,7 @@
     --gray: #F0F0F0;
     --shadow: #010101;
     --ws: #1A1A1A;
-    --delay: 5s;
+    --delay: 1s;
 }
 
 @font-face {
@@ -26,7 +26,20 @@
 body {
     padding: 0;
     margin: 1em 2em;
+    overflow-x: hidden;
+    overflow-y: hidden;
     background: var(--back);
+    animation: over 0.8s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes over {
+    0% {
+        overflow-y: hidden;
+    }
+    100% {
+        overflow-y: auto;
+    }
 }
 
 .header {
@@ -43,16 +56,44 @@ nav {
 
 nav.left {
     top: 1em;
-    left: 2em;
+    left: -20em;
+    animation: left-in 0.8s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
+    animation-delay: var(--delay);
+}
+
+@keyframes left-in {
+    0% {
+        left: -20em;
+    }
+    98% {
+        left: 1.8em;
+    }
+    100% {
+        left: 2em;
+    }
 }
 
 nav.right {
-    top: 1em;
+    top: -20em;
     left: auto;
     right: 2em;
     color: var(--gray);
     font-family: Asgard;
     text-transform: uppercase;
+    animation: top-in 0.8s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
+    animation-delay: var(--delay);
+}
+
+@keyframes top-in {
+    0% {
+        top: -20em;
+    }
+    98% {
+        top: 1.8em;
+    }
+    100% {
+        top: 2em;
+    }
 }
 
 nav.right > span,
@@ -146,10 +187,22 @@ main div:nth-child(2) {
 
 article {
     width: 90%;
-    bottom: 1em;
+    bottom: -20em;
     max-width: 300px;
     position: absolute;
     font-family: Asgard;
+    animation: bottom-in 0.4s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
+    animation-delay: 1.4s;
+}
+
+@keyframes bottom-in {
+    0% {
+        bottom: -20em;
+    }
+
+    100% {
+        bottom: 1em;
+    }
 }
 
 article h2 {
@@ -185,7 +238,7 @@ article .long-arrow {
 
 .button {
     left: 50%;
-    bottom: 1em;
+    bottom: -20em;
     width: 260px;
     font-size: 1.1em;
     line-height: 0.9em;
@@ -198,6 +251,8 @@ article .long-arrow {
     text-decoration: none;
     background: var(--text);
     transform: translateX(-50%);
+    animation: bottom-in 0.4s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
+    animation-delay: 1.4s;
 }
 
 .button .text {
@@ -215,10 +270,24 @@ article .long-arrow {
 }
 
 .navigate-video {
-    right: 2em;
+    right: -30em;
     bottom: 1em;
     width: 20%;
     position: absolute;
+    animation: right-in 0.8s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
+    animation-delay: var(--delay);
+}
+
+@keyframes right-in {
+    0% {
+        right: -30em;
+    }
+    98% {
+        right: 1.8em;
+    }
+    100% {
+        right: 2em;
+    }
 }
 
 .navigate-video p {
