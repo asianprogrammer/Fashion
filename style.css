@@ -192,7 +192,8 @@ main div:nth-child(2) {
 }
 
 .text-back-shadow,
-.character-shadow {
+.character-shadow,
+.nav-shadow {
     top: 55%;
     left: -5em;
     width: 90%;
@@ -293,6 +294,13 @@ article .long-arrow {
 .button .arrow img {
     width: 100%;
     object-fit: contain;
+}
+
+.nav-shadow {
+    left: auto;
+    right: -3em;
+    width: 600px;
+    top: 25%;
 }
 
 .navigate-video {
