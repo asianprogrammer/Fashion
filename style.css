@@ -4,7 +4,7 @@
     --gray: #F0F0F0;
     --shadow: #010101;
     --ws: #1A1A1A;
-    --delay: 1s;
+    --delay: 0.8s;
 }
 
 @font-face {
@@ -170,7 +170,7 @@ main div:nth-child(2) {
     position: absolute;
     transform: translateX(-50%);
     animation: scale 0.2s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
-    animation-delay: 1.1s;
+    animation-delay: 1.2s;
 }
 
 @keyframes scale {
