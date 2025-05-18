@@ -131,7 +131,7 @@ nav.right .icon {
 main {
     top: 0;
     height: 90%;
-    opacity: .1;
+    opacity: 1%;
     font-size: 18.9em;
     width: fit-content;
     gap: 0 !important;
@@ -139,16 +139,16 @@ main {
     color: var(--text);
     font-family: Aexir;
     position: absolute;
-    animation: opacity 0.1s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
-    animation-delay: var(--delay);
+    animation: opacity 0.1s ease forwards;
+    animation-delay: 1.3s;
 }
 
 @keyframes opacity {
     0% {
-        opacity: .1;
+        opacity: 1%;
     }
     100% {
-        opacity: 1;
+        opacity: 100%;
     }
 }
 
@@ -161,26 +161,24 @@ main div:nth-child(2) {
 }
 
 .character {
-    bottom: -30em;
     left: 50%;
-    /* height: 90vh; */
-    height: 140vh;
+    bottom: 0em;
+    height: 90vh;
     overflow: hidden;
     width: fit-content;
     position: absolute;
-    transform: translateX(-50%);
-    animation: scale 0.2s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
+    transform-origin: top;
+    transform: translateX(-50%) scale(1.7);
+    animation: scale-out 0.8s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
     animation-delay: 1.2s;
 }
 
-@keyframes scale {
+@keyframes scale-out {
     0% {
-        bottom: -30em;
-        height: 140vh;
+        transform: translateX(-50%) scale(1.7);
     }
     100% {
-        bottom: 0em;
-        height: 90vh;
+        transform: translateX(-50%) scale(1);
     }
 }
 
