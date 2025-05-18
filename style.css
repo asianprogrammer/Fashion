@@ -169,13 +169,16 @@ main div:nth-child(2) {
     position: absolute;
     transform-origin: top;
     transform: translateX(-50%) scale(1.7);
-    animation: scale-out 0.8s cubic-bezier(0.7, 0, 0.99, 0.01) forwards;
+    animation: scale-out 0.4s ease forwards;
     animation-delay: 1.2s;
 }
 
 @keyframes scale-out {
     0% {
         transform: translateX(-50%) scale(1.7);
+    }
+    70% {
+        transform: translateX(-50%) scale(1.5);
     }
     100% {
         transform: translateX(-50%) scale(1);
